@@ -1,0 +1,91 @@
+$black: #181425;
+
+body {
+    margin: 0;
+    font-family: 'Mina', arial;
+    font-weight: bold;
+    background-color: #ead4aa;
+}
+
+.nav {
+    background-color: #0099db;
+    box-shadow: 0px 5px #124e89;
+    color: $black;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 10px;
+    background-color: #8b9bb4;
+    color: $black;
+    display: grid;
+    text-shadow: 1px 1px #484a55;
+    width: 30%;
+    font-size: 100%;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+    }
+
+    &.spigot {
+        background-color: #99e164;
+    }
+
+    &.dp {
+        background-color: $black;
+        color: white;
+    }
+
+    &.mbg {
+        background-color: #FFB630;
+    }
+    
+    &.marketplace {
+        background-color: #c0cbdc;
+    }
+
+    &.ldjam {
+        background-color: #1F2429;
+        color: white;
+    }
+
+    &.github {
+        background: white;
+    }
+
+    .text {
+        padding: 5px;
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #feae34;
+            text-shadow: #f77622;
+
+            &.yellow {
+                color: #63c74d;
+                text-shadow: #3e8948;
+            }
+        }
+    }
+
+    img {
+        &.nearest {
+            image-rendering: pixelated;
+        }
+
+        width: 100%;
+        width: 100%;
+    }
+}

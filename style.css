@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Mina', arial;
+  font-weight: bold;
+  background-color: #ead4aa; }
+
+.nav {
+  background-color: #0099db;
+  -webkit-box-shadow: 0px 5px #124e89;
+  box-shadow: 0px 5px #124e89;
+  color: #181425;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-bottom: 5px; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.project {
+  margin: 10px;
+  background-color: #8b9bb4;
+  color: #181425;
+  display: grid;
+  text-shadow: 1px 1px #484a55;
+  width: 30%;
+  font-size: 100%; }
+  @media screen and (max-width: 900px) {
+    .project {
+      width: 100%; } }
+  .project.spigot {
+    background-color: #99e164; }
+  .project.dp {
+    background-color: #181425;
+    color: white; }
+  .project.mbg {
+    background-color: #FFB630; }
+  .project.marketplace {
+    background-color: #c0cbdc; }
+  .project.ldjam {
+    background-color: #1F2429;
+    color: white; }
+  .project.github {
+    background: white; }
+  .project .text {
+    padding: 5px; }
+    .project .text p {
+      margin: 0; }
+    .project .text a {
+      text-decoration: none;
+      color: #feae34;
+      text-shadow: #f77622; }
+      .project .text a.yellow {
+        color: #63c74d;
+        text-shadow: #3e8948; }
+  .project img {
+    width: 100%;
+    width: 100%; }
+    .project img.nearest {
+      -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated; }
