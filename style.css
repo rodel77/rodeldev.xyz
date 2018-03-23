@@ -36,6 +36,8 @@ body {
       width: 100%; } }
   .project.spigot {
     background-color: #99e164; }
+  .project.peak {
+    background: #e67e22; }
   .project.dp {
     background-color: #181425;
     color: white; }
